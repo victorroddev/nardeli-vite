@@ -1,32 +1,36 @@
+// src/components/Menu/index.js
 
 import './styles.css';
 import { FaFacebookF } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 
-
-const Menu = ({ isOpen }) => {
+// --- MODIFICACIÓN AQUÍ ---
+// Recibimos la nueva prop `closeMenu`
+const Menu = ({ isOpen, closeMenu }) => {
     return (
         <div className={`menu ${isOpen ? 'menu-visible' : 'menu-hidden'}`}>
             <ul className='links'>
-                <li><a href="#Faq">Preguntas frecuentes</a></li>
+                {/* --- MODIFICACIÓN AQUÍ --- */}
+                {/* Añadimos el evento onClick a cada enlace */}
+                <li><a href="#FAQ" onClick={closeMenu}>Preguntas frecuentes</a></li>
                 <div className='divider-link'></div>
-                <li><a href="Contact">Contacto</a></li>
-                <div className='divider-link' ></div>
+                <li><a href="#Contact" onClick={closeMenu}>Contacto</a></li>
+                <div className='divider-link'></div>
                 <li className='icons-container'>
-                    <a href="www.facebook.com">
+                    <a href="https://www.facebook.com" onClick={closeMenu} target="_blank" rel="noopener noreferrer">
                         <FaFacebookF/>
                     </a>
-                    <a href="www.instagram.com">
+                    <a href="https://www.instagram.com" onClick={closeMenu} target="_blank" rel="noopener noreferrer">
                         <FaInstagram />
                     </a>
-                    <a href="www.tiktok.com">
+                    <a href="https://www.tiktok.com" onClick={closeMenu} target="_blank" rel="noopener noreferrer">
                         <FaTiktok />
                     </a>
                 </li>
             </ul>
         </div>
-    )
+    );
 }
 
-export default Menu
+export default Menu;

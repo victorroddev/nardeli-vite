@@ -14,12 +14,12 @@ const faqData = [
     {
         id: 2,
         question: '¿Cuál es la capacidad máxima del lugar?',
-        answer: 'Nuestra capacidad máxima es de 500 personas en formato de banquete y hasta 800 personas en formato de concierto o auditorio. Contáctanos para discutir las necesidades específicas de tu evento.'
+        answer: 'Nuestra capacidad máxima es de 500 personas.'
     },
     {
         id: 3,
         question: '¿Ofrecen servicio de catering o se puede traer uno externo?',
-        answer: 'Contamos con un servicio de catering de alta cocina con menús personalizables. Sin embargo, somos flexibles y permitimos el acceso a proveedores externos certificados bajo ciertas condiciones. '
+        answer: 'Si, Contamos con un servicio de catering de alta cocina con menús personalizables. Sin embargo, somos flexibles y permitimos el acceso a proveedores externos certificados bajo ciertas condiciones. '
     },
     {
         id: 4,

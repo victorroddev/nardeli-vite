@@ -8,13 +8,13 @@
     overflow: hidden;
 }
 
-/* Contenedor de la imagen y los degradados */
+
 .about-us-items-container {
     position: relative;
     width: 100%;
-    max-width: 1000px; /* Un ancho máximo de ejemplo */
+    max-width: 1000px; 
     margin-bottom: 2rem;
-    overflow: hidden; /* ¡MUY IMPORTANTE! para que los degradados no se salgan */
+    overflow: hidden; 
 }
 
 .about-us-img {
