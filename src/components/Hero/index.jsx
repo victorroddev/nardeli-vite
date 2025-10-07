@@ -92,7 +92,7 @@ const Hero = () => {
             <div className='text-container' ref={container} >
                 <img src={logoLetters} alt=""  className='logo-letters'/>
                 <p className='hero-text text-1'>Centro de</p>
-                <p className='hero-text text-2'>Espectaculos</p>
+                <p className='hero-text text-2'>Eventos</p>
                 <p className='random-text' ref={randomTextRef}>
                     Eventos
                 </p>

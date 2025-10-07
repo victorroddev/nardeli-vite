@@ -47,8 +47,8 @@
     background-color: var(--color-gold);
 }
 .eventos-titles{
-    font-family: 'italiano';
-    font-size: 6rem;
+    font-family: 'brillant';
+    font-size: 3rem;
 }
 
 .portrait-title{
@@ -92,8 +92,8 @@
 }
 
 .panels-title{
-    font-family: 'italiano';
-    font-size: 4rem;
+    font-family: 'brillant';
+    font-size: 2rem;
     color: white;
     position: absolute;
     bottom: 0rem;
