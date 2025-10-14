@@ -8,7 +8,7 @@
 }
 
 .faq-title {
-    font-family: 'SIFONN', sans-serif; /* Usando tu fuente para títulos */
+    font-family: 'monas', sans-serif; /* Usando tu fuente para títulos */
     font-size: 2.5rem;
     color: var(--color-purple); /* Usando tu variable de color */
     margin-bottom: 3rem;
@@ -34,7 +34,7 @@
     padding: 1.5rem 0;
     text-align: left;
     cursor: pointer;
-    font-family: 'SIFONN', sans-serif; /* Fuente llamativa para las preguntas */
+    font-family: 'codec', sans-serif; /* Fuente llamativa para las preguntas */
     font-size: 1.2rem;
     color: var(--color-purple-light);
     transition: color 0.3s ease;

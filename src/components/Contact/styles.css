@@ -1,7 +1,7 @@
 .subtitle-staff{
     font-size: 1.5rem;
     text-align: center;
-    font-family: 'SIFONN';
+    font-family: 'codec-cold';
     color: var(--color-purple-light);
 }
 
@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
-    font-family: 'SIFONN';
+    font-family: 'monas';
 }
 
 .contact-container{
@@ -109,7 +109,7 @@
     padding: 1rem;
     border: solid, 3px, var(--color-purple-light);
     max-width: 440px;
-    font-family: 'SIFONN';
+    font-family: 'codec-cold';
     font-size: 1.3rem;
     color: var(--color-purple-light);
     cursor: pointer;

@@ -57,6 +57,11 @@ html {
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'monas';
+  src: url('/src/assets/fonts/monasgrotesk-bold.otf');
+  font-weight: normal;
+}
 
 /* Tablets y pantallas medianas */
 @media (min-width: 768px) {

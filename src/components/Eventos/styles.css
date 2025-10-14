@@ -47,7 +47,7 @@
     background-color: var(--color-gold);
 }
 .eventos-titles{
-    font-family: 'brillant';
+    font-family: 'monas';
     font-size: 3rem;
 }
 
@@ -92,10 +92,10 @@
 }
 
 .panels-title{
-    font-family: 'brillant';
+    font-family: 'code-cold';
     font-size: 2rem;
     color: white;
     position: absolute;
-    bottom: 0rem;
+    bottom: 2rem;
     margin: 0;
 }

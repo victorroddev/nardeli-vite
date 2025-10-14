@@ -43,7 +43,7 @@
 }
 
 .column-title {
-    font-family: 'SIFONN', sans-serif;
+    font-family: 'monas', sans-serif;
     font-size: 1.8rem;
     color: var(--color-purple);
     text-align: center;
@@ -86,7 +86,7 @@
 
 .precios-nota {
     margin-top: 3rem;
-    font-family: 'noto-sans', sans-serif;
+    font-family: 'codec-cold', sans-serif;
     font-size: 0.9rem;
     color: #777;
     max-width: 600px;

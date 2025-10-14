@@ -57,7 +57,7 @@
 }
 
 .text-1, .text-2{
-    font-family: 'SIFONN';
+    font-family: 'codec-cold';
     font-size: 3rem;
     z-index: 20;
     font-weight: bold;
@@ -110,7 +110,7 @@
 
 .random-text{
     z-index: 20;
-    font-family: 'brillant';
+    font-family: 'monas';
     font-size: 2.5rem;
     color: var(--color-gold-light);
 }
