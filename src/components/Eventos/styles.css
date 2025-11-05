@@ -36,15 +36,15 @@
 }
 
 .panel-2{
-    background-color: var(--color-gold);
+    background-color: black;
 }
 
 .panel-3{
-    background-color: var(--color-gold-light);
+    background-color: black;
 }
 
 .panel-4{
-    background-color: var(--color-gold);
+    background-color: black;
 }
 .eventos-titles{
     font-family: 'monas';
@@ -60,9 +60,9 @@
     display: flex;
     flex-direction: column;
     width: 95%;
-    max-width: 600px;
+    max-width: 1200px;
     height: 70%;
-    max-height: 500px;
+    max-height: 700px;
     position: relative;
 }
 
@@ -77,8 +77,9 @@
 .panel-image {
     position: absolute;
     width: 80%;
-    /*Ajustaparaquequepadentrodelmarco*/height: 70%;
-    /*Ajustaparaquequepadentrodelmarco*/object-fit: cover;
+    height: 70%;
+    object-fit: cover;
+    object-position: 50% 20%;
     border-top-left-radius: 2rem;
     left: 2rem;
     top: 1rem;
@@ -93,7 +94,7 @@
 
 .panels-title{
     font-family: 'code-cold';
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     position: absolute;
     bottom: 2rem;
