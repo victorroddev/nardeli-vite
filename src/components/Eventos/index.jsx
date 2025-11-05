@@ -8,6 +8,7 @@ import './styles.css'; // Asegúrate de que el nombre del archivo CSS coincida
 import cenaShowImg from '../../img/photo/cena-show.jpeg';
 import weddingImg from '../../img/photo/weddings.jpg';
 import xvImg from '../../img/photo/xv.jpg';
+import xVImgReal from '../../img/photo/xv-img.webp';
 import graduacionImg from '../../img/photo/graduaciones.jpg';
 gsap.registerPlugin(ScrollTrigger);
 
@@ -34,7 +35,7 @@ const panelesData = [
         id: 4,
         type: 'evento',
         title: 'XV Años',
-        imageSrc: xvImg, // Reemplaza 'null' con la variable de tu imagen importada, ej: xvImg
+        imageSrc: xVImgReal, // Reemplaza 'null' con la variable de tu imagen importada, ej: xvImg
     },
     {
         id: 5,
