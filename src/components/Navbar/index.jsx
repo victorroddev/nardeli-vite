@@ -44,11 +44,7 @@ const Navbar = () => {
                 >
                     <span></span>
                     <span></span>
-                    <span></span>
-                    <p>Cerrar</p>
                 </button>
-                {/* --- MODIFICACIÓN AQUÍ --- */}
-                {/* Pasamos la función closeMenu como prop */}
                 <Menu isOpen={isMenuOpen} closeMenu={closeMenu} />
         </div>
     );

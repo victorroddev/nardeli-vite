@@ -9,8 +9,8 @@ import { FaInstagram } from "react-icons/fa6";
 // Recibimos la nueva prop `closeMenu`
 const Menu = ({ isOpen, closeMenu }) => {
     return (
-        <div className={`menu ${isOpen ? 'menu-visible' : 'menu-hidden'}`}>
-            <ul className='links'>
+        <div className={`menu ${isOpen ? 'menu-visible' : 'menu'}`}>
+            <ul className={`links ${isOpen ? 'links-visible' : 'links'}`}>
                 {/* --- MODIFICACIÓN AQUÍ --- */}
                 {/* Añadimos el evento onClick a cada enlace */}
                 <li><a href="#FAQ" onClick={closeMenu}>Preguntas frecuentes</a></li>

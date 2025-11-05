@@ -1,57 +1,55 @@
 .menu{
     position: fixed;
-    top: 120px;
-    right: 0;
+    top: 100px;
     display: flex;
-    flex-direction: column;
-    width: 80%;
+    flex-direction: row;
+    width: 100%;
     margin-left: auto;
-    box-shadow: 1px 1px 1px 1px black;
-    background-color: black;
-    height: 80vh;
+    background-color: var(--color-purple);
+    height: 0;
     z-index: 100;
     border-radius: 0.5rem;
     -webkit-border-radius: 0.5rem;
     -moz-border-radius: 0.5rem;
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
+    transition: height 0.5s ease-in-out;
+    -webkit-transition: height 0.5s ease-in-out;
+    -moz-transition: height 0.5s ease-in-out;
+    -ms-transition: height 0.5s ease-in-out;
+    -o-transition: height 0.5s ease-in-out;
+    overflow: hidden;
+    justify-content: center;
 }
 
 .menu-visible{
-    transform: translateX(0);
-    -webkit-transform: translateX(0);
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
-    -o-transform: translateX(0);
-    transition: transform 0.5s;
-    -webkit-transition: transform 0.5s;
-    -moz-transition: transform 0.5s;
-    -ms-transition: transform 0.5s;
-    -o-transition: transform 0.5s;
+    height: 10vh;
+    position: fixed;
+    display: flex
 }
 
-.menu-hidden{
-    transform: translateX(4200px);
-    -webkit-transform: translateX(4200px);
-    -moz-transform: translateX(4200px);
-    -ms-transform: translateX(4200px);
-    -o-transform: translateX(4200px);
-    transition: transform 0.9s;
-    -webkit-transition: transform 0.9s;
-    -moz-transition: transform 0.9s;
-    -ms-transition: transform 0.9s;
-    -o-transition: transform 0.9s;
-}
 
 .links{
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    flex-direction: row;
+    gap: 0.2rem;
     list-style: none;
     padding: 1rem;
     margin-top: 1rem;
     font-family: 'pt sans';
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+}
 
+.links-visible{
+    opacity: 1;
+    transition: opacity 1s ease-in;
 }
 
 .divider-link{
@@ -64,7 +62,7 @@ a{
     text-decoration: none;
     font-family: 'noto-sans';
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .icons-container{
@@ -82,8 +80,3 @@ a{
     -o-border-radius: .5rem;
 }
 
-@media (min-width: 640px){
-    .menu{
-        width: 15%;
-    }
-}
