@@ -9,9 +9,7 @@ body{
 background-color: black;
 }
 
-html {
-  font-size: 17px;
-}
+
 p{
   margin: 0;
 }
@@ -82,15 +80,3 @@ h1,h2,h3{
 }
 
 /* Tablets y pantallas medianas */
-@media (min-width: 768px) {
-  html {
-    font-size: 22px;
-  }
-}
-
-
-@media (min-width: 1024px) {
-  html {
-    font-size: 24px;
-  }
-}

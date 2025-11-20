@@ -12,8 +12,6 @@ const Navbar = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
-    // --- NUEVA FUNCIÓN ---
-    // Función dedicada a cerrar el menú
     const closeMenu = () => {
         setIsMenuOpen(false);
     };
@@ -21,7 +19,7 @@ const Navbar = () => {
     useEffect((()=> {
         const handleClickOutside = (event) => {
             if(menuRef.current && !menuRef.current.contains(event.target)) {
-                closeMenu(); // Usamos la nueva función aquí también para claridad
+                closeMenu(); 
             }
         };
         if(isMenuOpen) {
