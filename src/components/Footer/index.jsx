@@ -16,11 +16,8 @@ gsap.registerPlugin(ScrollTrigger);
 const Footer = () => {
     const footerRef = useRef(null);
 
-    // Generamos un número de teléfono aleatorio de Ciudad Juárez (LADA 656)
-    const telefonoAleatorio = `(656) ${Math.floor(100 + Math.random() * 900)}-${Math.floor(1000 + Math.random() * 9000)}`;
-
     useGSAP(() => {
-        // Animación sutil para revelar el footer cuando se llega al final de la página
+        
         gsap.from(footerRef.current, {
             opacity: 0,
             y: 50,
@@ -28,7 +25,7 @@ const Footer = () => {
             ease: 'power3.out',
             scrollTrigger: {
                 trigger: footerRef.current,
-                start: 'top 95%', // Se activa casi al llegar
+                start: 'top 95%',
                 toggleActions: 'play none none none'
             }
         });
@@ -61,12 +58,12 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-contact">
-                    <a href={`tel:${telefonoAleatorio.replace(/\D/g, '')}`}>{telefonoAleatorio}</a>
+                    <a href='tel:52+656-472-4878'>(656)-472-4878</a>
                 </div>
             </div>
             <div className="footer-bottom">
                 <p>© {new Date().getFullYear()} Nardeli. Todos los derechos reservados.</p>
-                <p>Diseñado por: <a href="www.growy.tech">Growy</a></p>
+                <p>By: <a href="www.growy.tech">Growy</a></p>
             </div>
         </footer>
     );

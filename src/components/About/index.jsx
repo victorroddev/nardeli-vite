@@ -4,6 +4,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from "@gsap/react";
 import './styles.css';
 import aboutImg from '../../img/photo/nardeli-01.jpeg';
+import cardTwo from '../../img/photo/card-two.webp'
+import cardThree from '../../img/photo/card-three.webp';
+import Card from './Card';
+import map from '../../img/photo/maps-nardeli.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -58,10 +62,30 @@ const About = () => {
         <div className='about-us-container' ref={containerRef}>
             {/* NO hay div duplicado, solo uno */}
             <div className='about-us-items-container'>
-                <p className='welcome-text'>Bienvenidos</p>
-                <img src={aboutImg} alt="Interior del centro de espectáculos Nardeli" className='about-us-img'/>
+                <h2 className='title title-about'>Bienvenidos</h2>
+                <p className='subtitle subtitle-about'>Centro de espectaculos de vanguardia</p>
+                <div className='cards-container'>
+                    <Card 
+                        cardImage={map}
+                        cardTitle='Ubicación Estrategica'
+                        cardParagraph='Cerca del puente internacional Zaragoza'
+                        cardButtonText='Ubicación'
+                        class='card-button'
+                    />
+                    <Card 
+                        cardImage={cardTwo}
+                        cardTitle='Tecnología y Diseño'
+                        cardParagraph='Pantallas OLED panorámicas, pista con robótico, y un diseño espectacular'                 
+                    />
+
+                    <Card 
+                        cardImage={cardThree}
+                        cardTitle='Ambiente Versatil'
+                        cardParagraph='Lugar ideal para cenas, show, con artistas, bodas, quinceañeras, baby showers y mucho más'
+                    />
+
+                </div>
             </div>
-            <p className='about-us-paragraph'> Nardeli es el centro de espectáculos de vanguardia en la frontera. Ubicado estratégicamente cerca del puente internacional Zaragoza, Nardeli combina lo mejor de la tecnología moderna con un diseño de primera clase. Con pantallas OLED panorámicas, pista con robótica y un ambiente versátil, somos el lugar ideal para cenas-show con artistas de renombre, bodas, quinceañeras, baby showers y más. ¡Descubre el lugar donde la frontera celebra con estilo!</p>
         </div>
     );
 }

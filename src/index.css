@@ -12,6 +12,13 @@ background-color: black;
 html {
   font-size: 17px;
 }
+p{
+  margin: 0;
+}
+
+h1,h2,h3{
+  margin: 0;
+}
 
 /* fonts */
 @font-face {
@@ -61,6 +68,17 @@ html {
   font-family: 'monas';
   src: url('/src/assets/fonts/monasgrotesk-bold.otf');
   font-weight: normal;
+}
+
+.title{
+  font-size: 2.5rem;
+  font-family: 'monas';
+  text-transform: uppercase;
+}
+
+.subtitle{
+  font-family: 'codec-cold';
+  font-size: 1.5rem;
 }
 
 /* Tablets y pantallas medianas */

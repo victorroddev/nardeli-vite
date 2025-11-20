@@ -12,8 +12,8 @@
 .about-us-items-container {
     position: relative;
     width: 100%;
-    max-width: 1000px; 
     margin-bottom: 2rem;
+    max-width: 1520px;
     overflow: hidden; 
 }
 
@@ -23,20 +23,31 @@
 
 
 .about-us-paragraph {
-    max-width: 750px; /* Un ancho máximo de ejemplo */
-    text-align: center;
+    max-width: 750px; 
     font-size: 1.1rem;
-    line-height: 1.6;
     color: white;
     font-family: 'noto-sans';
 }
 
-.welcome-text{
-    font-family: 'monas';
-    font-size: 5rem;
-    z-index: 20;
-    font-weight: bold;
+.title-about{
     color: white;
     text-align: center;
-    text-transform: uppercase;
+}
+
+.subtitle-about{
+    color: white;
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+@media (min-width: 1024px){
+    .cards-container{
+        flex-direction: row;
+    }
 }
