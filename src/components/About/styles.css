@@ -33,9 +33,10 @@
 
 .welcome-text{
     font-family: 'monas';
-    font-size: 3rem;
+    font-size: 5rem;
     z-index: 20;
     font-weight: bold;
     color: white;
     text-align: center;
+    text-transform: uppercase;
 }

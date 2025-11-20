@@ -1,5 +1,5 @@
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import HeroSlider  from './components/HeroSlider';
 import Eventos from './components/Eventos';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
+      <HeroSlider />
       <Eventos />
       <About />
       <section id='Contact'>

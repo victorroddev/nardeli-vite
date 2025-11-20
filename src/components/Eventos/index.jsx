@@ -63,12 +63,10 @@ const Eventos = () => {
                 pin: true,
                 scrub: 1,
                 snap: 1 / (numPanels - 1),
-                // Ajuste para que el final sea preciso
                 end: () => "+=" + (panelsContainerRef.current.offsetWidth - window.innerWidth),
             }
         });
     }, { scope: mainContainerRef, dependencies: [panelesData] }); // Se re-ejecuta si los datos cambian
-
     return (
         <div className='eventos-container' ref={mainContainerRef}>
             <div 

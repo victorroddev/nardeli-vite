@@ -1,0 +1,45 @@
+.hero-video-slide{
+    background-color: transparent;
+    width: 100%;
+    height: 600px;
+    position:relative
+}
+
+
+
+
+.background-video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    z-index: 50;
+}
+
+.video-layer-top{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to bottom, black , transparent);
+    z-index: 60;
+    position: absolute;
+    top: 0;
+    opacity: 100%;
+}
+
+
+.video-layer-bottom{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top, black , transparent);
+    z-index: 60;
+    position: absolute;
+    bottom: 0;
+    opacity: 100%;
+}
+
+
+@media(min-width: 768px){
+    .hero-video-slide{
+    height: 800px;
+}
+}
