@@ -42,8 +42,9 @@
 .cards-container{
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 4em;
     gap: 2rem;
+    margin-bottom: 6rem;
 }
 
 @media (min-width: 1024px){

@@ -13,18 +13,18 @@ const Menu = ({ isOpen, closeMenu }) => {
             <ul className={`links ${isOpen ? 'links-visible' : 'links'}`}>
                 {/* --- MODIFICACIÓN AQUÍ --- */}
                 {/* Añadimos el evento onClick a cada enlace */}
-                <li><a href="#FAQ" onClick={closeMenu}>Preguntas frecuentes</a></li>
+                <li><a href="#FAQ" onClick={closeMenu} className='menu-link'>Preguntas frecuentes</a></li>
                 <div className='divider-link'></div>
-                <li><a href="#Contact" onClick={closeMenu}>Contacto</a></li>
+                <li><a href="#Contact" onClick={closeMenu} className='menu-link'>Contacto</a></li>
                 <div className='divider-link'></div>
                 <li className='icons-container'>
-                    <a href="https://www.facebook.com" onClick={closeMenu} target="_blank" rel="noopener noreferrer">
+                    <a className='rrss-navbar-icon' href="https://www.facebook.com" onClick={closeMenu} target="_blank" rel="noopener noreferrer">
                         <FaFacebookF/>
                     </a>
-                    <a href="https://www.instagram.com" onClick={closeMenu} target="_blank" rel="noopener noreferrer">
+                    <a className='rrss-navbar-icon' href="https://www.instagram.com" onClick={closeMenu} target="_blank" rel="noopener noreferrer">
                         <FaInstagram />
                     </a>
-                    <a href="https://www.tiktok.com" onClick={closeMenu} target="_blank" rel="noopener noreferrer">
+                    <a className='rrss-navbar-icon' href="https://www.tiktok.com" onClick={closeMenu} target="_blank" rel="noopener noreferrer">
                         <FaTiktok />
                     </a>
                 </li>

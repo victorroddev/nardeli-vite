@@ -126,4 +126,8 @@
     .hero-form{
     height: 800px;
 }
+
+    .text-1, .text-2{
+        font-size: 7rem;
+    }
 }
