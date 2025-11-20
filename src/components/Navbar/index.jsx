@@ -35,7 +35,9 @@ const Navbar = () => {
     return(
         <div className='navbar' ref={menuRef}>
             <div className='logo-container'>
-                <img className="logo" src={logo} alt="Logo Nardeli" />
+                <a href="#">
+                    <img className="logo" src={logo} alt="Logo Nardeli" />
+                </a>
             </div>
                 <button 
                 className={`menu-button ${isMenuOpen ? 'is-active': ''}`} 
