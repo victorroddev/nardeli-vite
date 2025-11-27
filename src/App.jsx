@@ -7,6 +7,7 @@ import FAQ from './components/Faq/Faq';
 import Prices from './components/Prices/Prices';
 import Footer from './components/Footer/index';
 import FixedButtons from './components/FixedButtons';
+import Gallery from './components/Gallery';
 
 function App() { 
   const phoneNumber = "+52 65969540"
@@ -23,7 +24,6 @@ function App() {
       <section id='FAQ'>
           <FAQ />
       </section>
-      <Prices />
       <Footer />
 
       <FixedButtons phoneNumber={phoneNumber} />
