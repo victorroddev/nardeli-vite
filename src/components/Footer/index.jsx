@@ -63,7 +63,7 @@ const Footer = () => {
             </div>
             <div className="footer-bottom">
                 <p>© {new Date().getFullYear()} Nardeli. Todos los derechos reservados.</p>
-                <p>By: <a href="www.growy.tech">Growy</a></p>
+                <p>By: <a href="http://zwww.growy.tech">Growy</a></p>
             </div>
         </footer>
     );

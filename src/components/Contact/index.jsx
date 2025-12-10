@@ -88,8 +88,8 @@ const Contact = () => {
                     </button>
                 </form>
                 <div className='btns-container'>
-                    <button className='contact-btn'>WhatsApp</button>
-                    <button className='contact-btn'>Teléfono</button>
+                    <a href='https://wa.link/7im7ue' className='contact-btn'>WhatsApp</a>
+                    <a href='tel:52+656-472-4878' className='contact-btn'>Teléfono</a>
                 </div>
             </div>
         </div>

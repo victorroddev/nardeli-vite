@@ -2,6 +2,7 @@ import { useRef, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import videoOne from '../../videos/video-nardeli-01.mp4';
 import videoTwo from '../../videos/video-nardeli-02.mp4';
+import videoThree from '../../videos/web-vid.mp4';
 
 //Import swiper styles
 import 'swiper/css';
@@ -44,7 +45,7 @@ const HeroSlider = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <VideoSlide videoUrl={videoTwo}/>
+                    <VideoSlide videoUrl={videoThree}/>
                 </SwiperSlide>
 
             </Swiper>

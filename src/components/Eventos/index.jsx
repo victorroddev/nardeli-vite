@@ -10,6 +10,10 @@ import weddingImg from '../../img/photo/weddings.jpg';
 import xvImg from '../../img/photo/xv.jpg';
 import xVImgReal from '../../img/photo/xv-img.webp';
 import graduacionImg from '../../img/photo/graduaciones.jpg';
+import conferenciasImg from '../../img/photo/conferenciasimg.webp';
+import juntasImg from '../../img/photo/juntas.webp';
+import coffeImg from '../../img/photo/coffee.webp';
+
 gsap.registerPlugin(ScrollTrigger);
 
 // --- 2. DEFINE LA INFORMACIÓN DE TUS PANELES EN ESTE ARREGLO ---
@@ -35,14 +39,32 @@ const panelesData = [
         id: 4,
         type: 'evento',
         title: 'XV Años',
-        imageSrc: xVImgReal, // Reemplaza 'null' con la variable de tu imagen importada, ej: xvImg
+        imageSrc: xVImgReal,
     },
     {
         id: 5,
         type: 'evento',
         title: 'Graduaciones',
-        imageSrc: graduacionImg, // Añade más paneles aquí si lo necesitas
+        imageSrc: graduacionImg, 
     },
+    {
+        id: 6,
+        type: 'evento',
+        title: 'Conferencias',
+        imageSrc: conferenciasImg,
+    },
+    {
+        id: 7,
+        type: 'evento',
+        title: 'Juntas Empresariales',
+        imageSrc: juntasImg,
+    },
+    {
+        id: 8,
+        type: 'evento',
+        title: 'Coffee Breaks',
+        imageSrc: coffeImg  ,
+    }
 ];
 
 const Eventos = () => {

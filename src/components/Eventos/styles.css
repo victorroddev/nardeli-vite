@@ -10,15 +10,14 @@
 }
 
 .panel {
-    /* Cada panel ocupa el 100% del ancho y alto del viewport. */
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
-    box-sizing: border-box; /* Para que el padding no afecte el tamaño total */
+    font-size: 1.5rem;
+    box-sizing: border-box; 
     overflow: hidden;
     
 }
@@ -94,7 +93,7 @@
 
 .panels-title{
     font-family: 'code-cold';
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     position: absolute;
     bottom: 2rem;
