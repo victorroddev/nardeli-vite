@@ -7,10 +7,9 @@ import './styles.css'; // Asegúrate de que el nombre del archivo CSS coincida
 // --- 1. IMPORTA TUS IMÁGENES AQUÍ ---
 import cenaShowImg from '../../img/photo/cena-show.jpeg';
 import weddingImg from '../../img/photo/weddings.jpg';
-import xvImg from '../../img/photo/xv.jpg';
 import xVImgReal from '../../img/photo/xv-img.webp';
-import graduacionImg from '../../img/photo/graduaciones.jpg';
-import conferenciasImg from '../../img/photo/conferenciasimg.webp';
+import graduacionImg from '../../img/photo/graduaciones.webp';
+import conferenciasImg from '../../img/photo/conferencias-1.png';
 import juntasImg from '../../img/photo/juntas.webp';
 import coffeImg from '../../img/photo/coffee.webp';
 
