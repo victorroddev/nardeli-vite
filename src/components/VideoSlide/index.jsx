@@ -14,8 +14,8 @@ const VideoSlide = ({ videoUrl }) => {
             
             />
 
-            <div className='video-layer-top'></div>
-            <div className='video-layer-bottom'></div>
+            <div className=''></div>
+            <div className=''></div>
         </div>
     )
 };
